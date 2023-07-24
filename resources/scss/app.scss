@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Includes
+@import 'includes/reset.scss';
+@import 'includes/external.scss';
+
+// Partials
+@import 'partials/icons.scss';
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.10);
+    --swiper-pagination-color: rgba(0, 0, 0, 0.25);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    image-rendering: pixelated;
+}
+
+.no-pixelated {
+    image-rendering: auto !important;
+}
+
+// header {
+//     background-image: url('/assets/images/background.webp')
+// }
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #b9c2d6 #ffffff;
+}
+
+html {
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 7px;
+        height: 7px
+    }
+
+    *::-webkit-scrollbar-track {
+        background: #ffffff;
+    }
+
+    *::-webkit-scrollbar-thumb {
+        background-color: #9CA3AF;
+        border-radius: 3px;
+        border: 2px none #ffffff;
+    }
+
+    #discord-widget {
+        *::-webkit-scrollbar-thumb {
+            background-color: #5765F2 !important;
+        }
+    }
+
+    &.dark {
+        *::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+    }
+}
