@@ -55,12 +55,12 @@
     @endif
 
     <header class="relative flex justify-start items-center py-7 border-b-2 border-blue-300 dark:border-gray-800">
-        <div class="absolute inset-0 bg-blue-400" style="background-image: url('https://hab-blog.weebly.com/uploads/1/2/1/7/12173803/6431351_orig.gif'); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);"></div>
+        <div class="absolute inset-0 bg-blue-400" style="background-image: url('https://i.imgur.com/2UF0mT5.gif'); box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);"></div>
         <x-container class="flex lg:flex-row flex-col justify-between gap-4 lg:gap-0 items-center">
             <div class="lg:w-1/2 w-full flex flex-col justify-center items-center lg:items-start">
                 <a href="/" target="_self">
                     <span class="text-4xl font-semibold text-white text-center lg:text-left drop-shadow-lg">
-                        <img src="https://i.imgur.com/241aa22.png" alt="Logo iHabbi">
+                        <img src="https://i.imgur.com/1e5A4hm.png" alt="Logo iHabbi">
                     </span>
                 </a>
                 
